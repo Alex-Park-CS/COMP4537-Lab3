@@ -1,4 +1,4 @@
 exports.dateTime = 
 function() {
-    return Date();
+    return new Date().toLocaleString("en-US", { timeZone: "America/Los_Angeles" });
 }
